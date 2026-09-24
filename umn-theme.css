@@ -1,0 +1,173 @@
+/* @theme umn */
+
+/*
+ * University of Minnesota theme for Marp.
+ * Colors and fonts follow brand.umn.edu/colors and brand.umn.edu/fonts.
+ */
+
+@import 'default';
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+section {
+  --umn-maroon: #6d001f;
+  --umn-gold: #ffcc33;
+  --umn-birch-dark: #5a5a5a;
+  --umn-birch-light: #f0efee;
+  --umn-sandbar-light: #f5f1ec;
+
+  --font-heading: 'Hanken Grotesk', Arial, sans-serif;
+  --font-body: 'Open Sans', Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 70px 80px;
+  background: #fff;
+  color: #222;
+  font-family: var(--font-body);
+  font-size: 28px;
+  line-height: 1.45;
+  /* Maroon bar across the top of content slides */
+  box-shadow: inset 0 12px 0 var(--umn-maroon);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  color: var(--umn-maroon);
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+}
+
+h1 {
+  font-size: 1.7em;
+  font-weight: 800;
+  padding-bottom: 0.2em;
+  border-bottom: 6px solid var(--umn-gold);
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+strong {
+  color: var(--umn-maroon);
+}
+
+a {
+  color: var(--umn-maroon);
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  padding-left: 1.2em;
+}
+
+li {
+  margin: 0.25em 0;
+}
+
+li::marker {
+  color: var(--umn-maroon);
+}
+
+blockquote {
+  margin: 0.5em 0;
+  padding: 0.4em 1em;
+  border-left: 8px solid var(--umn-gold);
+  background: var(--umn-sandbar-light);
+  color: #222;
+}
+
+code {
+  background: var(--umn-birch-light);
+  color: var(--umn-maroon);
+  border-radius: 4px;
+}
+
+pre {
+  background: var(--umn-birch-light);
+  border-left: 6px solid var(--umn-maroon);
+  border-radius: 4px;
+}
+
+pre code {
+  background: transparent;
+  color: inherit;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  background: var(--umn-maroon);
+  color: #fff;
+  font-family: var(--font-heading);
+}
+
+table th,
+table td {
+  border: 1px solid var(--umn-birch-light);
+  padding: 0.3em 0.8em;
+}
+
+table tr:nth-child(even) td {
+  background: var(--umn-sandbar-light);
+}
+
+header,
+footer,
+section::after {
+  color: var(--umn-birch-dark);
+  font-family: var(--font-body);
+  font-size: 18px;
+}
+
+header {
+  top: 24px;
+}
+
+/* Title and section-divider slides */
+section.lead {
+  justify-content: center;
+  text-align: center;
+  background: var(--umn-maroon);
+  color: #fff;
+  box-shadow: none;
+}
+
+section.lead h1 {
+  color: #fff;
+  font-size: 2.5em;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+section.lead h2,
+section.lead h3,
+section.lead p,
+section.lead strong {
+  color: var(--umn-gold);
+}
+
+section.lead a {
+  color: #fff;
+}
+
+section.lead header,
+section.lead footer,
+section.lead::after {
+  color: var(--umn-birch-light);
+}
