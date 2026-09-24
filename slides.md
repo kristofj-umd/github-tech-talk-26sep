@@ -33,6 +33,27 @@ footer: 'UMD · Tech Talk'
 
 ---
 
+# Github
+
+### "The future of building happens together" 🥰
+
+[Github](https://github.com/) is a platform for version control and collaboration, allowing multiple people to work on projects simultaneously. It uses Git, a distributed version control system, to track changes in source code during software development.
+
+**tldr;
+Github = code + collaboration + version control**
+
+---
+
+# Features of GitHub
+
+- Version Control ("file time machine")
+- Collaboration
+  - Pull Requests
+- Project Management
+- Security and Code Review
+
+---
+
 <!-- _class: lead -->
 
 # Why Use GitHub?
