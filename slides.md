@@ -123,15 +123,54 @@ https://github.com/orgs/dotnet/projects/135
 
 ---
 
+# Moving from github.umn.edu to github.com
+
+https://atlas.umn.edu/it-umn/decommission-github-enterprise-server-ghes
+![Decommission GitHub Enterprise Server](images/decom.png)
+
+---
+
+# Github Migration
+
+## Important Dates
+
+- Archive (read-only): **4 November, 2026**
+- Decommission: **5 May, 2027**
+
+## [Migration Guide](https://github-docs.devex.oit.umn.edu/migration/)
+- Simple browser tool
+  - *Does not migrate issues and pull requests*
+- Terminal-based tool that can be batched
+
+Let me know if you have questions or need assistance.
+
+---
+
 <!-- _class: lead -->
 
 # Getting Started with GitHub
 
 ---
 
+# How to join NRRI's Github
+
+1. Create a GitHub account at [github.com](https://github.com)
+
+**IMPORTANT**: 
+- You need to use your University e-mail when creating this account.
+- If you already have an account you need to add your UMN e-mail to that account. 
+https://github-docs.devex.oit.umn.edu/#login
+
+2. Contact Kris Johnson (kristofj@d.umn.edu) or Jane Reed (jmreed@d.umn.edu) to let us know you want to join.
+3. Accept the invitation to join NRRI's GitHub organization once you have been added.
+
+###### Troubleshooting: look out for issues with your e-mail address getting truncated from **d.umn.edu** to **umn.edu**
+
+---
+
 <!-- _class: lead -->
 
-# How to join NRRI's Github 
+# https://github.com/umn-umd-nrri
 
 ---
 
