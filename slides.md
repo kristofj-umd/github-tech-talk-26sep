@@ -23,7 +23,6 @@ footer: 'NRRI · Tech Talk'
 - Why use GitHub?
 - Github Migration
 - Getting Started with GitHub
-- How to join NRRI's Github
 
 ---
 
@@ -42,28 +41,21 @@ footer: 'NRRI · Tech Talk'
 [Github](https://github.com/) is a platform for version control and collaboration, allowing multiple people to work on projects simultaneously. It uses Git, a distributed version control system, to track changes in source code during software development.
 
 **tldr;
-Github = code + collaboration + version control**
-
----
-
-# Features of GitHub
-
-- Version Control ("file time machine")
-- Collaboration
-- Project Management
-- Security and Code Review
+Github = code/files/data + version control + collaboration**
 
 ---
 
 # Quick Glossary
 
+**Version Control**: A system that records changes to files over time so that you can recall specific versions later.
+
 **Repository (Repo)**: A storage location for code, documentation, and other project-related files. 
 - Mechanically, think of it as a folder on your computer
 - Structurally, think of it as a **project**.
 
-**Issue**: A discussion thread for tracking tasks, bugs, or feature requests within a repository.
+**Issue**: A discussion thread for highlighting concerns and tracking tasks within a repository.
 
-**Pull Request (PR)**: A request to make changes to the repository, often accompanied by feedback or a discussion, and a collective (and, nowadays, automated) code review.
+**Pull Request (PR)**: A request to make changes to the repo, often accompanied by feedback or a discussion, and a collective (and, nowadays, automated) code review.
 
 ---
 
@@ -96,6 +88,8 @@ Example: Pursuit of Climate Data
 
 # Collaboration Example
 
+## https://github.com/umn-umd-nrri/nra-map/issues/111
+
 ---
 
 # Project Management
@@ -116,6 +110,24 @@ https://github.com/orgs/dotnet/projects/135
 
 ---
 
+# Publicizing or Sharing Your Work
+
+### Reproducable science
+
+Share your work and make it accessible to others on a public repo.
+
+### Publish Outcomes
+
+Make your research findings and project results available to the broader community via Github Pages.
+
+### Private Repo + Public Page
+
+This is a useful pattern where you keep your project files private to your team and only make the final outcomes publicly accessible via a GitHub Pages site.
+
+### https://umn-umd-nrri.github.io/bird-group-biodiversity/
+
+
+---
 
 <!-- _class: lead -->
 
@@ -174,8 +186,9 @@ https://github-docs.devex.oit.umn.edu/#login
 
 ---
 
-### Thank You
+<!-- _class: lead -->
 
-### Questions?
+# Questions?
 
-#### Kris Johnson | kristofj@d.umn.edu | [github.com/kristofj-umd](https://github.com/kristofj-umd)
+
+## Kris Johnson | kristofj@d.umn.edu | [github.com/kristofj-umd](https://github.com/kristofj-umd)
