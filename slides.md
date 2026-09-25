@@ -134,3 +134,9 @@ https://github.com/orgs/dotnet/projects/135
 # How to join NRRI's Github 
 
 ---
+
+### Thank You
+
+### Questions?
+
+#### Kris Johnson | kristofj@d.umn.edu | [github.com/kristofj-umd](https://github.com/kristofj-umd)
